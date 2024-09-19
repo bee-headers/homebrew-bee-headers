@@ -39,6 +39,29 @@ This should output the include path, something like:
 -I/opt/homebrew/Cellar/bee-headers/0.1/include
 ```
 
+## Installation (Manual)
+
+1. Clone the project:
+
+```sh
+git clone https://github.com/bee-headers/homebrew-bee-headers.git
+cd homebrew-bee-headers/
+```
+
+2. Install the Bee Headers Homebrew formulae manually using:
+
+```sh
+brew install --build-from-source bee-headers.rb
+```
+
+> *Note*
+>
+> If you have the formulae already installed, you can reinstalled it with:
+>
+> ```sh
+> brew reinstall --build-from-source bee-headers.rb
+> ```
+
 ## Uninstall
 
 To remove the installed bee-headers package, you can run:
