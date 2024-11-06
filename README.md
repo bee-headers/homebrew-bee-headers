@@ -88,7 +88,8 @@ diskutil apfs addVolume /dev/disk<N> "Case-sensitive APFS" linux
 ```
 
 ```shell
-brew install coreutils findutils gnu-sed gnu-tar grep llvm make pkg-config
+brew install coreutils findutils gnu-sed gnu-tar grep llvm lld make
+pkg-config
 ```
 
 ```shell
@@ -129,10 +130,11 @@ Replace `/dev/disk<N>` with the appropriate disk identifier.
 Use Homebrew to install the required build dependencies.
 
 - **Core Utilities**: `coreutils`, `findutils`, `gnu-sed`, `gnu-tar`, `grep`,
-`llvm`, `make`, and `pkg-config`.
+`llvm`, `lld`, `make`, and `pkg-config`.
 
 ```shell
-brew install coreutils findutils gnu-sed gnu-tar grep llvm make pkg-config
+brew install coreutils findutils gnu-sed gnu-tar grep llvm lld make
+pkg-config
 ```
 
 - **Bee Headers**: Install byteswap, elf, and endian headers using the [Bee
