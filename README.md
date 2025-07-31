@@ -104,8 +104,8 @@ source bee-init
 ```
 
 ```shell
-make LLVM=1 defconfig
-make LLVM=1 -j$(nproc)
+make defconfig
+make -j$(nproc)
 ```
 
 ## How to use Bee Headers to Build the Linux kernel in macOS
@@ -164,8 +164,8 @@ source bee-init
 Run the following commands to initiate the build:
 
 ```shell
-make LLVM=1 defconfig
-make LLVM=1 -j$(nproc)
+make defconfig
+make -j$(nproc)
 ```
 
 ### Manual Configuration of the Environment

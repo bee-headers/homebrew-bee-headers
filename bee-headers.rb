@@ -57,6 +57,7 @@ class BeeHeaders < Formula
           fi
         done
 
+        export LLVM=1
         export HOSTCFLAGS="$(pkg-config --cflags bee-headers) -D_UUID_T -D__GETHOSTUUID_H"
         export BEE_HEADERS=1
       else
